@@ -1,6 +1,6 @@
 #lang info
 (define collection "raclette")
-(define deps '("base"))
+(define deps '("base" "db" "deta"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
 (define scribblings '(("scribblings/raclette.scrbl" ())))
 (define pkg-desc "Description Here")
